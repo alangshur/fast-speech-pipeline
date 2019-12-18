@@ -14,7 +14,7 @@ tacotron2 = tacotron2.to('cuda')
 tacotron2.eval()
 
 # specify target text
-text = "hello world, I missed you"
+text = "Born and raised in Pretoria, South Africa, Musk moved to Canada when he was 17 to attend Queen's University. He transferred to the University of Pennsylvania two years later, where he received a Bachelor's degree in economics from the Wharton School and a Bachelor's degree in physics from the College of Arts and Sciences. He began a Ph.D. in applied physics and material sciences at Stanford University in 1995 but dropped out after two days to pursue an entrepreneurial career. He subsequently co-founded Zip2 with his brother Kimbal, a web software company, which was acquired by Compaq for $340 million in 1999. Musk then founded X.com, an online bank. It merged with Confinity in 2000, which had launched PayPal the previous year and was bought by eBay for $1.5 billion in October 2002."
 
 # pre-process text
 sequence = np.array(tacotron2.text_to_sequence(text, ['english_cleaners']))[None, :]

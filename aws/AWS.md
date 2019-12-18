@@ -7,5 +7,11 @@ Guide:
 
 ## Useful Commands
 
-Secure Copy Protocol:
-`scp -i ec2key.pem username@ec2ip:/path/to/file .`
+Activate PyTorch Environment:
+`source activate pytorch_p36`
+
+SSH:
+`ssh -i aws/aws-dl.pem ubuntu@[IP]`
+
+SCP:
+`scp -i aws/aws-dl.pem path/to/file ubuntu@[IP]:~`
