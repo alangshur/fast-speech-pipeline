@@ -11,7 +11,7 @@ Activate PyTorch Environment:
 `source activate pytorch_p36`
 
 SSH:
-`ssh -i aws/aws-dl.pem ubuntu@[IP]`
+`ssh -i aws/wiki-podcast.pem ubuntu@[IP]`
 
 SCP:
-`scp -i aws/aws-dl.pem path/to/file ubuntu@[IP]:~`
+`scp -i aws/wiki-podcast.pem path/to/file ubuntu@[IP]:~`
