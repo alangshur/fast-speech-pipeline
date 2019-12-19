@@ -1,1 +1,4 @@
 *.pem
+*__pycache__
+*.pt
+*.pth.tar
